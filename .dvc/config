@@ -1,4 +1,7 @@
 [core]
     remote = storage
 ['remote "storage"']
-    url = http://localhost:9001/browser/dvctestbucket
+    url = s3://dvctestbucket
+    endpointurl = http://localhost:9000
+    access_key_id = minioadmin
+    secret_access_key = minioadmin123
